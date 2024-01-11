@@ -8,7 +8,7 @@ Create an SSH account using the form below. Then enter the six solutions for lev
 
 Example: `bitwarrior, Solution1, Solution2, Solution3, Solution4, Solution5`
 
-#Solution0
+### Solution0
 1- Connect to the our count ssh,using this commande
 ssh -p 19198 pseudo@warchall.net
 ```bash
@@ -36,7 +36,7 @@ ls
   cd 00_WELCOME
   cat README.md
 ```
-#Soution1
+### Soution1
 1- Open the 01_choice_tree directory using cd:
 ```bash
   cd O1_choice_tree
@@ -51,7 +51,7 @@ ls
   cat SOLUTION.txt
 ```
 
-#Solution2
+### Solution2
 1- Open the 02 directory using cd:
 ```bash
   cd O2
@@ -80,7 +80,7 @@ ls
   cat ./.bash_history
 ```
 
-#Solution4
+### Solution4
 1- Open the 04_kwisatz directory using cd:
 ```bash
   cd 04_kwisatz
@@ -101,7 +101,7 @@ ls
 ```bash
   cat ./level/04_kwisatz/README2.md
 ```
-#solution5
+### solution5
 1- Open the 05_privacy directory using cd:
 ```bash
   cd 05_privacy
