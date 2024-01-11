@@ -7,7 +7,6 @@ Congratulations! You are now on your way to becoming a Linux superhacker.
 Create an SSH account using the form below. Then enter the six solutions for levels 0-5, separated by commas.
 
 Example: "bitwarrior, Solution1, Solution2, Solution3, Solution4, Solution5"
-
 ### Solution0
 1- Connect to the our count ssh,using this commande
 ssh -p 19198 pseudo@warchall.net
