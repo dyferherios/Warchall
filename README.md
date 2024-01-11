@@ -66,7 +66,7 @@ ls
   cat ./.solution
 ```
 
-#Solution3
+### Solution3
 1- Open the 03 directory using cd:
 ```bash
   cd O3
