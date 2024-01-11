@@ -13,7 +13,8 @@ ssh -p 19198 pseudo@warchall.net
 ```bash
   ssh -p 19198 freddy@warchall.net
 ```
-### Solution0
+
+### Solution0
 1- Use the ls command to display the contents of the current folder:
 ls 
 ```bash
