@@ -7,30 +7,30 @@ Congratulations! You are now on your way to becoming a Linux superhacker.
 Create an SSH account using the form below. Then enter the six solutions for levels 0-5, separated by commas.
 
 Example: "bitwarrior, Solution1, Solution2, Solution3, Solution4, Solution5"
-### Solution0
-1- Connect to the our count ssh,using this commande
+
+Connect to the our count ssh,using this commande
 ssh -p 19198 pseudo@warchall.net
 ```bash
   ssh -p 19198 freddy@warchall.net
 ```
-
-2- Use the ls command to display the contents of the current folder:
+### Solution0
+1- Use the ls command to display the contents of the current folder:
 ls 
 ```bash
   ls
 ```
 
-3- Show the contents of the WELCOME.md file using cat WELCOME.md:
+2- Show the contents of the WELCOME.md file using cat WELCOME.md:
 ```bash
   cat WELCOME.md
 ```
 
-4- Navigate to the directory containing the challenge mentioned in the WELCOME.md file:
+3- Navigate to the directory containing the challenge mentioned in the WELCOME.md file:
 ```
   /home/level/ or /home/user/freddy/level
 ```
 
-5- Open the 00_WELCOME directory using the cd command and read the README.md file to find the solution:
+4- Open the 00_WELCOME directory using the cd command and read the README.md file to find the solution:
 ```bash
   cd 00_WELCOME
   cat README.md
