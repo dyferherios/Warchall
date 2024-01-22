@@ -14,7 +14,7 @@ ssh -p 19198 pseudo@warchall.net
   ssh -p 19198 freddy@warchall.net
 ```
 
-### Solution0
+### Level0
 1- Use the ls command to display the contents of the current folder:
 ls 
 ```bash
@@ -36,7 +36,7 @@ ls
   cd 00_WELCOME
   cat README.md
 ```
-### Soution1
+### Level1
 1- Open the 01_choice_tree directory using cd:
 ```bash
   cd O1_choice_tree
@@ -51,7 +51,7 @@ ls
   cat SOLUTION.txt
 ```
 
-### Solution2
+### Level2
 1- Open the 02 directory using cd:
 ```bash
   cd O2
@@ -66,7 +66,7 @@ ls
   cat ./.solution
 ```
 
-### Solution3
+### Level3
 1- Open the 03 directory using cd:
 ```bash
   cd O3
@@ -80,7 +80,7 @@ ls
   cat ./.bash_history
 ```
 
-### Solution4
+### Level4
 1- Open the 04_kwisatz directory using cd:
 ```bash
   cd 04_kwisatz
@@ -101,7 +101,7 @@ ls
 ```bash
   cat ./level/04_kwisatz/README2.md
 ```
-### solution5
+### Level5
 1- Open the 05_privacy directory using cd:
 ```bash
   cd 05_privacy
@@ -114,3 +114,16 @@ ls
 ```bash
   cat README.md 
 ```
+## Py-tong
+### Level12
+pour resoudre cet challenge on utilise le commande suivant ./pytong <(echo foo)
+    ./pytong : C'est l'exécution du binaire pytong qui est le script Python à exploiter.
+    < : C'est l'opérateur de redirection, il prend la sortie de la commande suivante et l'utilise comme entrée pour ./pytong.
+    (echo foo) : Cela génère la chaîne "foo" et la passe comme entrée à ./pytong.
+```bash
+./pytong <(echo foo)
+```
+## Live LFI
+### Level14
+One reason why I wanted the warchall box is to offer more realistic webhacking challenges.
+You may now try the Live LFI challenge that is hosted on it.
