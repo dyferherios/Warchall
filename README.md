@@ -128,10 +128,12 @@ To solve this challenge, the following command is used: ./pytong <(echo foo)
 ### Level14
 One reason why I wanted the warchall box is to offer more realistic webhacking challenges.
 You may now try the Live LFI challenge that is hosted on it.
-```solution.php
+```
+solution.php
 ```
 Add this link to the url
-```php://filter/convert.base64-encode/resource=solution.php
+```
+php://filter/convert.base64-encode/resource=solution.php
 ```
 Copy the text encrypted in base64 and decode it to the terminal
 ```bash
