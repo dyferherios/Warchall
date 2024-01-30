@@ -124,7 +124,7 @@ You can view the source here.
 ```
 2- Execute the following command to redirect the solution to the personnal directory:
 ```bash
-   ./charp "so & cat solution.txt > ~/s.txt"
+   ./charp "run & cat solution.txt > ~/s10.txt"
 ```
 - ./charp: Runs the program or script named "charp."
 - "so": Provides a string as an argument to "charp."
