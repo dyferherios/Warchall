@@ -120,11 +120,11 @@ You can view the source here.
 ### level 10
 1- Use the cd command to navigate into the challenge repository.
 ```bash
-  cd path/to/challenge/repository
+  cd /home/level/10_choose_your_path
 ```
 2- Execute the following command to redirect the solution to the personnal directory:
 ```bash
-   ./charp "run & cat solution.txt > ~/s10.txt"
+   ./charp "so & cat solution.txt > ~/s.txt"
 ```
 - ./charp: Runs the program or script named "charp."
 - "so": Provides a string as an argument to "charp."
